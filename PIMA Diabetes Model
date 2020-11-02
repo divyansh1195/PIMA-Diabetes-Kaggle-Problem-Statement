@@ -1,5 +1,0 @@
-PIMA Diabetes Kaggle Problem Statement
-
-In this notebook, I have made an attempt to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.
-Here, I have implemented various Classification techniques and since the dataset is fairly balanced in terms of 0 and 1 outcomes, the best accuracy which I could come up with was 77.604% using ensemble RANDOM FOREST classifier.
-Note: In the dataset some independent variables(diagnostic measurement parameters) have '0' values like Insulin, Blood Pressure(which realistically can't be zero). So, I have tried to replace those '0' values by using imputer technique.
