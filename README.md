@@ -27,7 +27,9 @@ A glimpse of the web app:
 ![Heroku-Error](readme_resources/application-error-heroku.png)
 
 ## About the App
-The Diabetes Predictor is a flask web application which detects whether a person has diabetes or not based on certain parameters like Pregnancies, Skin Thickness, BMI, Age, Glucose etc. The code is written in Python 3.6.10. 
+The Diabetes Predictor is a flask web application which diagnostically predicts whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset like Pregnancies, Skin Thickness, BMI, Age, Glucose etc. The code is written in Python 3.6.10. Here, I have implemented various Classification techniques and since the dataset is fairly balanced in terms of 0 and 1 outcomes, the best accuracy which I could come up with was 77.604% using ensemble RANDOM FOREST classifier.
+Note: In the dataset some independent variables(diagnostic measurement parameters) have '0' values like Insulin, Blood Pressure(which realistically can't be zero). So, I have tried to replace those '0' values by using imputer technique.
+
 If you don't have Python installed, you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
