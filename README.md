@@ -14,12 +14,11 @@ This repository consists of files required for end to end implementation and dep
 
 ## App Link
 If you want to view the deployed model, click on the following link:<br />
-[https://banknotesauthenticator.herokuapp.com/](https://banknotesauthenticator.herokuapp.com/)
+[https://diabetescheckup.herokuapp.com/](https://diabetescheckup.herokuapp.com/)
 
 A glimpse of the web app:
 
-![GIF](readme_resources/bank_note_fake.gif)
-![GIF](readme_resources/bank_note_authenticate.gif)
+![GIF](readme_resources/have_diabetes.gif)
 
 • If you encounter this webapp as shown in the picture given below, it is occuring just because **free dynos for this particular month provided by the Heroku platform have been completely used.** You can access the webpage on 1st of the next month.
 
